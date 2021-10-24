@@ -1,0 +1,19 @@
+
+public class passing_variables {
+
+	public static void main(String[] args) {
+		//passing decimal values into int data type
+		//Using TYPECASTING
+		int a=(int)3.142;
+		System.out.println(a);
+		
+		//passing Character values into int
+		int b='A';
+		System.out.println(b);
+		
+		//passing long values to int
+		int c=(int)9223372036854775807L;
+		System.out.println(c);
+		
+	}
+}
