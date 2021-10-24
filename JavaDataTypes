@@ -1,0 +1,39 @@
+
+public class datatypes {
+
+	public static void main(String[] args) {
+		//Primitive
+		int a=2147483647;
+		int b=0;//Default value
+		byte c=127;
+		short d=32767;
+		long l=2147483647; //Normal Integer literal value
+		long ll= 9223372036854775806L;// Long Integer literal value
+		double f=3.142;
+		float g= 5/5;
+		float m=5.5F;
+		char h='a';
+		boolean i=true;
+		boolean j=false;
+		
+		//Non-Primitive
+		String Pgm="This programm is for understanding datatyes in Java";
+		
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(l);
+		System.out.println(ll);
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(m);
+		System.out.println(h);
+		System.out.println(i);
+		System.out.println(j);
+		System.out.println(Pgm);
+		System.out.println("Here, " +Pgm +" and this statement is " +i);
+
+	}
+
+}
