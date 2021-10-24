@@ -1,0 +1,53 @@
+
+public class literals {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		//Integer Literal
+		byte a= 123;
+		short b=12364;
+		int c=1234567890;
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		
+		//Long Literal
+		long d=123456789L;
+		System.out.println(d);
+		
+		//Floating Point Literal
+		float f=123.446F;
+		System.out.println(f);
+		
+		//Double Literal
+		double g=123.446d;
+		System.out.println(g);
+		
+		//Boolean Literal
+		boolean t= true;
+		boolean j= false;
+		System.out.println(t);
+		System.out.println(j);
+		
+		//Character Li  teral
+		char ch='#';
+		char ch1='s';
+		char ch2='6';
+		System.out.println(ch);
+		System.out.println(ch1);
+		System.out.println(ch2);
+		
+		//String Literal
+		String st = "Java in *** Ide";
+		System.out.println(st);
+		
+		//Escape Characters
+		System.out.println(" Escape \n Characters \t in \' Java\t Programming\' using \"Ecplise\\ IDE\" in \r JAVA  8\u00AE  ");
+		
+	}
+	
+
+}
+  
